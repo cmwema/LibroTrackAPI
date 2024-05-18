@@ -56,6 +56,10 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'django_project.wsgi.application'
 
+CORS_ALLOWED_ORIGINS = ["https://*", "http://*"]
+CSRF_TRUSTED_ORIGINS = ["https://*", "http://*"]
+CORS_ALLOW_ALL_ORIGINS = True
+
 
 # Database
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
