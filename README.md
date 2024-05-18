@@ -1,60 +1,68 @@
 # [LibroTrack API](https://librotrackapi.onrender.com/api/)
-## [PostMan Documentaion](https://documenter.getpostman.com/view/22007181/2sA3JT4eFY)
+
+## [Postman Documentation](https://documenter.getpostman.com/view/22007181/2sA3JT4eFY)
+
 LibroTrack API is a robust solution designed to streamline library operations. It provides endpoints for librarians to manage book inventories, member information, and transactions. The API allows for efficient tracking of book quantities, issuing books to members, processing returns, and charging fees.
 
-## [End points]()
-* ### Authentication
-`POST /api/login`
-Endpoint to authenticate users.
+**Note:** Only the librarian can use this system. To access the API, use the following authentication credentials:
+- **Username:** mwema
+- **Password:** @Test1234
 
-* ### Books
+**Use the postman for better experience. All the end points have been tested and saved [here](https://documenter.getpostman.com/view/22007181/2sA3JT4eFY)**.
 
-`POST /api/books/`
-Endpoint to create a new book.
+## Endpoints
 
-`GET /api/books`
-Endpoint to retrieve all books.
+### Authentication
+- `POST /api/login`
+  - Endpoint to authenticate users.
 
-`GET /api/books/{book_id}`
-Endpoint to retrieve a specific book.
+### Books
 
-`PUT /api/books/{book_id}/`
-Endpoint to update a specific book.
+- `POST /api/books/`
+  - Endpoint to create a new book.
 
-`DELETE /api/books/{book_id}/`
-Endpoint to delete a specific book.
+- `GET /api/books`
+  - Endpoint to retrieve all books.
 
-* ### Members
+- `GET /api/books/{book_id}`
+  - Endpoint to retrieve a specific book.
 
-`POST /api/members/`
-Endpoint to create a new member.
+- `PUT /api/books/{book_id}/`
+  - Endpoint to update a specific book.
 
-`GET /api/members`
-Endpoint to retrieve all members.
+- `DELETE /api/books/{book_id}/`
+  - Endpoint to delete a specific book.
 
-`GET /api/members/{member_id}`
-Endpoint to retrieve a specific member.
+### Members
 
-`PUT /api/members/{member_id}/`
-Endpoint to update a specific member.
+- `POST /api/members/`
+  - Endpoint to create a new member.
 
-`DELETE /api/members/{member_id}/`
-Endpoint to delete a specific member.
+- `GET /api/members`
+  - Endpoint to retrieve all members.
 
-* ### Transactions
+- `GET /api/members/{member_id}`
+  - Endpoint to retrieve a specific member.
 
-`POST /api/transactions/`
-Endpoint to create a new transaction.
+- `PUT /api/members/{member_id}/`
+  - Endpoint to update a specific member.
 
-`GET /api/transactions`
-Endpoint to retrieve all transactions.
+- `DELETE /api/members/{member_id}/`
+  - Endpoint to delete a specific member.
 
-`GET /api/transactions/{transaction_id}`
-Endpoint to retrieve a specific transaction.
+### Transactions
 
-`PUT /api/transactions/{transaction_id}/`
-Endpoint to update a specific transaction.
+- `POST /api/transactions/`
+  - Endpoint to create a new transaction.
 
-`DELETE /api/transactions/{transaction_id}/`
-Endpoint to delete a specific transaction.
+- `GET /api/transactions`
+  - Endpoint to retrieve all transactions.
 
+- `GET /api/transactions/{transaction_id}`
+  - Endpoint to retrieve a specific transaction.
+
+- `PUT /api/transactions/{transaction_id}/`
+  - Endpoint to update a specific transaction.
+
+- `DELETE /api/transactions/{transaction_id}/`
+  - Endpoint to delete a specific transaction.
