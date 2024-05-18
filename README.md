@@ -1,7 +1,5 @@
 # [LibroTrack API](https://librotrackapi.onrender.com/api/)
 
-## [Postman Documentation](https://documenter.getpostman.com/view/22007181/2sA3JT4eFY)
-
 LibroTrack API is a robust solution designed to streamline library operations. It provides endpoints for librarians to manage book inventories, member information, and transactions. The API allows for efficient tracking of book quantities, issuing books to members, processing returns, and charging fees.
 
 **Note:** Only the librarian can use this system. To access the API, use the following authentication credentials:
