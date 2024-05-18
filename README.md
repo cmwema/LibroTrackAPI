@@ -4,25 +4,25 @@ LibroTrack API is a robust solution designed to streamline library operations. I
 
 ### Authentication
 
-#### POST /api/login
+* #### POST /api/login
 Endpoint to authenticate users.
 
 ### Books
 
-#### POST /api/books/
-Endpoint to create a new book.
+* #### POST /api/books/
+  Endpoint to create a new book.
 
-#### GET /api/books
-Endpoint to retrieve all books.
+* #### GET /api/books
+  Endpoint to retrieve all books.
 
-#### GET /api/books/{book_id}
-Endpoint to retrieve a specific book.
+* #### GET /api/books/{book_id}
+  Endpoint to retrieve a specific book.
 
-#### PUT /api/books/{book_id}/
-Endpoint to update a specific book.
+* #### PUT /api/books/{book_id}/
+  Endpoint to update a specific book.
 
-#### DELETE /api/books/{book_id}/
-Endpoint to delete a specific book.
+* #### DELETE /api/books/{book_id}/
+- Endpoint to delete a specific book.
 
 ### Members
 
